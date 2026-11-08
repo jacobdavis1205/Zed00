@@ -1,0 +1,247 @@
+{
+  "id": "zed00",
+  "title": "Zed-00 \u2014 A Colony Survival Campaign",
+  "description": "A Stars Without Number homebrew for colony survival on a sealed world. Custom Strain, Exposure, gear modification and colony management.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": ""
+    }
+  ],
+  "url": "https://github.com/jacobdavis1205/Zed00",
+  "manifest": "https://github.com/jacobdavis1205/Zed00/releases/latest/download/system.json",
+  "download": "https://github.com/jacobdavis1205/Zed00/releases/latest/download/zed00.zip",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/jacobdavis1205/Zed00/issues",
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "colonist": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "creature": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    },
+    "Item": {
+      "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "armor": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "modification": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "gear": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "drug": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "cyberware": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "power": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "focus": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "xenotype": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "skill": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "css",
+        "lang",
+        "templates"
+      ]
+    }
+  },
+  "compatibility": {
+    "minimum": "13.345",
+    "verified": "13.348"
+  },
+  "esmodules": [
+    "module/zed00.mjs"
+  ],
+  "styles": [
+    "css/zed00.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "modifications",
+      "label": "Modifications",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "drugs",
+      "label": "Drugs",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "cyberware",
+      "label": "Cybernetics",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "powers",
+      "label": "Psionic Powers",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "foci",
+      "label": "Foci",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "xenotypes",
+      "label": "Xenotypes",
+      "system": "zed00",
+      "type": "Item"
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "system": "zed00",
+      "type": "Actor"
+    },
+    {
+      "name": "animals",
+      "label": "Animals",
+      "system": "zed00",
+      "type": "Actor"
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "system": "zed00",
+      "type": "RollTable"
+    },
+    {
+      "name": "rules",
+      "label": "Rules",
+      "system": "zed00",
+      "type": "JournalEntry"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Equipment",
+      "sorting": "a",
+      "color": "#B34324",
+      "packs": [
+        "weapons",
+        "armor",
+        "modifications",
+        "gear",
+        "drugs",
+        "cyberware"
+      ]
+    },
+    {
+      "name": "Character",
+      "sorting": "a",
+      "color": "#5A5A5A",
+      "packs": [
+        "foci",
+        "xenotypes",
+        "powers"
+      ]
+    },
+    {
+      "name": "Zed-00",
+      "sorting": "a",
+      "color": "#1A1A1A",
+      "packs": [
+        "bestiary",
+        "animals",
+        "tables",
+        "rules"
+      ]
+    }
+  ],
+  "socket": false,
+  "grid": {
+    "type": 1,
+    "distance": 5,
+    "units": "ft",
+    "diagonals": 0
+  },
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "strain"
+}
