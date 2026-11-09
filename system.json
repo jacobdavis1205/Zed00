@@ -2,10 +2,10 @@
   "id": "zed00",
   "title": "Zed-00 \u2014 A Colony Survival Campaign",
   "description": "A Stars Without Number homebrew for colony survival on a sealed world. Custom Strain, Exposure, gear modification and colony management.",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "authors": [
     {
-      "name": ""
+      "name": "Jake"
     }
   ],
   "url": "https://github.com/jacobdavis1205/Zed00",
