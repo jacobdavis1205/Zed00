@@ -8,12 +8,12 @@
       "name": "Jake"
     }
   ],
-  "url": "https://github.com/YOUR-GITHUB-USERNAME/zed00",
-  "manifest": "https://github.com/YOUR-GITHUB-USERNAME/zed00/releases/latest/download/system.json",
-  "download": "https://github.com/YOUR-GITHUB-USERNAME/zed00/releases/latest/download/zed00.zip",
+  "url": "https://github.com/jacobdavis1205/Zed00",
+  "manifest": "https://github.com/jacobdavis1205/Zed00/releases/latest/download/system.json",
+  "download": "https://github.com/jacobdavis1205/Zed00/releases/latest/download/zed00.zip",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/YOUR-GITHUB-USERNAME/zed00/issues",
+  "bugs": "https://github.com/jacobdavis1205/Zed00/issues",
   "documentTypes": {
     "Actor": {
       "character": {
