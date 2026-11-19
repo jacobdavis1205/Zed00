@@ -2,7 +2,7 @@
   "id": "zed00",
   "title": "Zed-00 — A Colony Survival Campaign",
   "description": "A Stars Without Number homebrew for colony survival on a sealed world. Custom Strain, Exposure, gear modification and colony management.",
-  "version": "1.16.0",
+  "version": "1.17.2",
   "authors": [
     {
       "name": "Jake"
@@ -234,6 +234,12 @@
       }
     },
     {
+      "name": "weather",
+      "label": "Weather Tables",
+      "system": "zed00",
+      "type": "RollTable"
+    },
+    {
       "name": "rules",
       "label": "Rules",
       "system": "zed00",
@@ -281,6 +287,7 @@
         "bestiary",
         "animals",
         "tables",
+        "weather",
         "rules",
         "structures"
       ]
